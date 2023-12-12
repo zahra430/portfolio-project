@@ -1,7 +1,14 @@
+:root{
+  --primary-color: red;
+  
+  --secondary-color:blue;
+  
+}
 h1 {
   color: red;
   font-family: "Playfair Display", serif;
 }
 h2 {
   font-family: "Poppins", sans-serif;
+  color: var(--secondary-color);
 }
