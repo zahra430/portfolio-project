@@ -3,6 +3,7 @@
 
   --secondary-color: #f4be16;
   --background-color: #c2b8b6;
+  --main-color: #392a1a;
 }
 
 h1 {
@@ -13,12 +14,14 @@ h2 {
   color: var(--secondary-color);
   font-family: "Exo 2", sans-serif;
 }
+h3 {
+  color: var(--secondary-color);
+
+  text-align: start;
+}
 p {
   font-family: "Quicksand", sans-serif;
-}
-.wrapper {
-  position: relative;
-  margin: 10px 200px;
+  color: var(--main-color);
 }
 
 section {
@@ -26,15 +29,19 @@ section {
   padding: 0ex;
   background: var(--primary-color);
 }
-h2.about {
-  color: var(--background-color);
+.about {
+  color: var(--main-color);
 }
-
-.float {
-  position: absolute;
-  top: -3.9ex;
-  left: 100px;
-  padding: 0 10px;
-  background: white;
-  z-index: 1;
+.wrapper {
+  position: relative;
+  margin: 10px 40px;
+  background: var(--primary-color);
+}
+.nav-color{
+  background: var(--secondary-color);
+}
+.research-interest{
+  font-family: "Quicksand", sans-serif;
+  color: var(--main-color);
+  
 }
