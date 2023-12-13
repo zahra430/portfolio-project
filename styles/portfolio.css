@@ -1,7 +1,7 @@
 :root {
-  --primary-color: red;
+  --primary-color: #e7e9eb;
 
-  --secondary-color: blue;
+  --secondary-color: #f2800a;
 }
 h1 {
   color: red;
@@ -14,13 +14,12 @@ h2 {
 .wrapper {
   position: relative;
   margin: 10px 200px;
-
 }
 
 section {
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   padding: 0ex;
-  
+  background: var(--primary-color);
 }
 
 .float {
@@ -30,4 +29,6 @@ section {
   padding: 0 10px;
   background: white;
   z-index: 1;
+  border: 3px solid #ccc;
+
 }
