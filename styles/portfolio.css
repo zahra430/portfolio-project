@@ -11,6 +11,9 @@ h2 {
   font-family: "Poppins", sans-serif;
   color: var(--secondary-color);
 }
+p{
+  font-family: 'Quicksand', sans-serif;
+}
 .wrapper {
   position: relative;
   margin: 10px 200px;
@@ -24,11 +27,10 @@ section {
 
 .float {
   position: absolute;
-  top: -1.9ex;
+  top: -3.9ex;
   left: 100px;
   padding: 0 10px;
   background: white;
   z-index: 1;
-  border: 3px solid #ccc;
 
 }
