@@ -1,18 +1,20 @@
 :root {
-  --primary-color: #e7e9eb;
+  --primary-color: #f3f3f3;
 
-  --secondary-color: #f2800a;
+  --secondary-color: #f4be16;
+  --background-color: #c2b8b6;
 }
+
 h1 {
   color: red;
   font-family: "Playfair Display", serif;
 }
 h2 {
-  font-family: "Poppins", sans-serif;
   color: var(--secondary-color);
+  font-family: "Exo 2", sans-serif;
 }
-p{
-  font-family: 'Quicksand', sans-serif;
+p {
+  font-family: "Quicksand", sans-serif;
 }
 .wrapper {
   position: relative;
@@ -20,9 +22,12 @@ p{
 }
 
 section {
-  border: 3px solid #ccc;
+  border: 1px solid var(--primary-color);
   padding: 0ex;
   background: var(--primary-color);
+}
+h2.about {
+  color: var(--background-color);
 }
 
 .float {
@@ -32,5 +37,4 @@ section {
   padding: 0 10px;
   background: white;
   z-index: 1;
-
 }
