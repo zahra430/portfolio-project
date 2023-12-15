@@ -37,11 +37,10 @@ section {
   margin: 10px 40px;
   background: var(--primary-color);
 }
-.nav-color{
+.nav-color {
   background: var(--secondary-color);
 }
-.research-interest{
+.research-interest {
   font-family: "Quicksand", sans-serif;
   color: var(--main-color);
-  
 }
