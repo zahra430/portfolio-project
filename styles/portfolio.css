@@ -16,12 +16,13 @@ h2 {
 }
 h3 {
   color: var(--secondary-color);
-
+font-size: 18px;
   text-align: start;
 }
 p {
   font-family: "Quicksand", sans-serif;
   color: var(--main-color);
+  font-size: 12px;
 }
 
 section {
@@ -43,4 +44,5 @@ section {
 .research-interest {
   font-family: "Quicksand", sans-serif;
   color: var(--main-color);
+  font-size: 12px;
 }
