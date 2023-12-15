@@ -14,6 +14,11 @@ h1 {
   color: var(--secondary-color);
   font-family: "Exo 2", sans-serif;
 }
+h2 {
+  color: var(--main-color);
+  font-family: "Exo 2", sans-serif;
+  font-size: 25px;
+}
 h3 {
   color: var(--secondary-color);
   font-size: 18px;
@@ -22,7 +27,7 @@ h3 {
 p {
   font-family: "Quicksand", sans-serif;
   color: var(--main-color);
-  font-size: 12px;
+  font-size: 18px;
 }
 
 section {
@@ -35,7 +40,7 @@ section {
 }
 .wrapper {
   position: relative;
-  margin: 10px 100px;
+  margin: 10px 150px;
   background: var(--primary-color);
 }
 .nav-color {
@@ -46,4 +51,10 @@ section {
   color: var(--main-color);
   font-size: 12px;
 }
-
+ .project-description {
+  padding: 0px 150px;
+  text-align: justify;
+}
+.project-photos{
+  margin: 0px 60px;
+}
