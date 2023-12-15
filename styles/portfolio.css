@@ -5,6 +5,10 @@
   --background-color: #c2b8b6;
   --main-color: #392a1a;
 }
+body {
+  background: var(--secondary-color);
+  background-size: 20%;
+}
 
 h1 {
   color: red;
@@ -16,7 +20,7 @@ h2 {
 }
 h3 {
   color: var(--secondary-color);
-font-size: 18px;
+  font-size: 18px;
   text-align: start;
 }
 p {
@@ -35,7 +39,7 @@ section {
 }
 .wrapper {
   position: relative;
-  margin: 10px 40px;
+  margin: 10px 100px;
   background: var(--primary-color);
 }
 .nav-color {
