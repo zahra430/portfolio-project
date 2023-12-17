@@ -28,6 +28,7 @@ p {
   color: var(--main-color);
   font-size: 18px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 section {
@@ -40,7 +41,7 @@ section {
 }
 .wrapper {
   position: relative;
-  margin: 10px 160px;
+  margin: 0px 100px;
   background: var(--primary-color);
 }
 .nav-color {
@@ -49,7 +50,6 @@ section {
 
 .project-description {
   padding: 0px 50px;
-  text-align: justify;
 }
 .project-photos {
   margin: 10px 350px;
@@ -58,16 +58,16 @@ section {
   transition: transform 1s ease-in-out;
 }
 
-
-@media(max-width: 700px){
-  h1{ font-size: 14px;}
-  p{
+@media (max-width: 700px) {
+  h1 {
+    font-size: 14px;
+  }
+  p {
     font-size: 12px;
   }
 
-  .wrapper{
+  .wrapper {
     margin: 10px;
     padding: 30px;
-  
   }
 }
