@@ -7,7 +7,6 @@
 }
 body {
   background: var(--secondary-color);
-  background-size: 20%;
 }
 
 h1 {
@@ -56,5 +55,19 @@ section {
   margin: 10px 350px;
 }
 .carousel-item {
-  transition: transform 2.6s ease-in-out;
+  transition: transform 1s ease-in-out;
+}
+
+
+@media(max-width: 700px){
+  h1{ font-size: 14px;}
+  p{
+    font-size: 12px;
+  }
+
+  .wrapper{
+    margin: 10px;
+    padding: 30px;
+  
+  }
 }
